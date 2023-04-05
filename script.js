@@ -23,15 +23,15 @@ $(function () {
         }
     });
 
-    // TODO: Add code to get any user input that was saved in localStorage and set
-    // the values of the corresponding textarea elements.\
+    // Get any user input that was saved in localStorage and set the values of the corresponding textarea elements
     $('.time-block').each(function () {
         var timeBlockId = $(this).attr('id');
         var userInput = localStorage.getItem(timeBlockId);
         $(this).children('.description').val(userInput);
     });
 
-    // TODO: Add code to display the current date in the header of the page.
-    var currentDay = dayjs().format('dddd, MMMM D, YYYY');
+    // Display the current date in the header of the page
+    const currentDay = dayjs().format('dddd, MMMM D, YYYY');
     $('#currentDay').text(currentDay);
 });
+
