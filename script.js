@@ -31,7 +31,7 @@ $(function () {
     });
 
     // Display the current date in the header of the page
-    const currentDay = dayjs().format('dddd, MMMM D, YYYY');
+    const currentDay = dayjs().format('dddd, MMMM D, YYYY'); //Changed from var to const because the currentday value will never change.
     $('#currentDay').text(currentDay);
 });
 
