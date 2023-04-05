@@ -2,6 +2,7 @@
 
 ## Deployed Site - https://colearrington98.github.io/Busy-Planner/
 
+![Screenshot 2023-04-05 020257](https://user-images.githubusercontent.com/119268105/230006783-daea9eca-b41a-4860-86c9-5a8b03c5498e.png)
 
 ## Description
 This is a simple calendar app for scheduling your work day. The app allows you to add important events to a daily planner so that you can manage your time effectively.
